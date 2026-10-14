@@ -1,9 +1,7 @@
-# Diplom_3
-UI автотесты для проверки веб-приложения Stellar Burgers
-### Студент: Оксана Гордеева 
-### Когорта: 13
-### Автотесты для проверки программы, которая помогает заказать бургер в Stellar Burgers
+# Автоматизация UI-тестирования веб-приложения Stellar Burgers
 
+### Технологический стек:
+Python, Pytest, Selenium, Allure, POM
 
 ### Запуск автотестов
 
@@ -19,21 +17,21 @@ UI автотесты для проверки веб-приложения Stella
 |-----------------------------|-------------------------------------------------|
 | Tests dir                   | Директория с тестами                            |
 | test_forgot_password.py     | Тесты на восстановление пароля                  |
-| test_main_functionality.py  | Тесты на основной функционал                    |
+| test_main_functionality.py  | Тесты на основную функциональность                    |
 | test_order_feed.py          | Тесты на Ленту заказов                          |
-| test_personal_account.py    | Тетсы на Личный кабинет                         |
+| test_personal_account.py    | Тесты на Личный кабинет                         |
 | conftest.py                 | Фикстуры                                        |
 | Pages dir                   | Директория с методами                           |
 | base_page.py                | Базовые методы                                  |
 | main_page.py                | Методы главной страницы основного функционала   |
 | account_page.py             | Методы личного кабинета                         |
 | login_page.py               | Методы восстановления пароля при входе          |
-| oder_feed_page.py           | Методы ленты заказов                            |
+| order_feed_page.py           | Методы ленты заказов                            |
 | Locators dir                | Директория с локаторами                         |
 | account_page_locator.py     | Локаторы личного кабинета                       |
 | login_page_locator.py       | Локаторы для восстановления пароля при входе    |
 | main_page_locator.py        | Локаторы главной страницы основного функционала |
-| oder_feed_page_locator.py   | Локаторы ленты заказов                          |
+| order_feed_page_locator.py   | Локаторы ленты заказов                          |
 | curl.py                     | Файл с URL                                      |
 | generators.py               | Генератор данных пользователя                   |
 | requirements.txt            | Файл с зависимостями                            |
